@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="../css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,23 +10,125 @@
   <body>
     <main>
       <header></header>
-      <div class="intro"></div>
+      <div class="intro">
+        <p>Hello chef</p>
+        <p>Welcome to Your Dashboard</p>
+      </div>
       <div class="container up-meals">
-        <div class="week-days"></div>
+        <div class="week-days">
+          <ul class="week-days__list">
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+            <li>Thirsday</li>
+            <li>Friday</li>
+          </ul>
+        </div>
+        <p>upcoming meals to be prepared</p>
         <div class="meal-card">
-          <div class="meal-card__image"></div>
-          <div class="meal-card__recipe"></div>
-          <div class="meal-card__reviews"></div>
+          <div class="meal-card__image">
+            <img src="/asset/media/plate.jpg" alt="1st plate image" />
+          </div>
+          <div class="meal-card__recipe">
+            <h2 class="meal-card__title">Chicken with French fries</h2>
+            <p><b>recipe: </b></p>
+            <ul>
+              <li>chicken thighs</li>
+              <li>small white potatoes, quartered</li>
+              <li>salt and pepper to taste</li>
+            </ul>
+          </div>
+          <div class="meal-card__review">
+            <h2 class="meal-card__title">feedback from last week</h2>
+            <ul class="meal-card__review-face">
+              <li><img src="/asset/svgs/angry-regular.svg" alt="" /></li>
+              <li><img src="/asset/svgs/frown-open-regular.svg" alt="" /></li>
+              <li><img src="/asset/svgs/smile-beam-regular.svg" alt="" /></li>
+              <li><img src="/asset/svgs/smile-regular.svg" alt="" /></li>
+            </ul>
+            <hr width="90%" size="7" color="green" />
+            <div class="meal-card__comments">
+              <div class="meal-card__comment">
+                <img src="/asset/svgs/angry-regular.svg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  earum autem, sunt expedita nam at?
+                </p>
+              </div>
+              <div class="meal-card__comment">
+                <img src="/asset/svgs/angry-regular.svg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  earum autem, sunt expedita nam at?
+                </p>
+              </div>
+              <div class="meal-card__comment">
+                <img src="/asset/svgs/angry-regular.svg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  earum autem, sunt expedita nam at?
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="meal-card">
-          <div class="meal-card__image"></div>
-          <div class="meal-card__recipe"></div>
-          <div class="meal-card__reviews"></div>
+          <div class="meal-card__image">
+            <img src="/asset/media/plate.jpg" alt="1st plate image" />
+          </div>
+          <div class="meal-card__recipe">
+            <h2 class="meal-card__title">Chicken with French fries</h2>
+            <p><b>recipe: </b></p>
+            <ul>
+              <li>chicken thighs</li>
+              <li>small white potatoes, quartered</li>
+              <li>salt and pepper to taste</li>
+            </ul>
+          </div>
+          <div class="meal-card__review">
+            <h2 class="meal-card__title">feedback from last week</h2>
+            <ul class="meal-card__review-face">
+              <li><img src="/asset/svgs/angry-regular.svg" alt="" /></li>
+              <li><img src="/asset/svgs/frown-open-regular.svg" alt="" /></li>
+              <li><img src="/asset/svgs/smile-beam-regular.svg" alt="" /></li>
+              <li><img src="/asset/svgs/smile-regular.svg" alt="" /></li>
+            </ul>
+            <hr width="90%" size="7" color="green" />
+            <div class="meal-card__comments">
+              <div class="meal-card__comment">
+                <img src="/asset/svgs/angry-regular.svg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  earum autem, sunt expedita nam at?
+                </p>
+              </div>
+              <div class="meal-card__comment">
+                <img src="/asset/svgs/angry-regular.svg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  earum autem, sunt expedita nam at?
+                </p>
+              </div>
+              <div class="meal-card__comment">
+                <img src="/asset/svgs/angry-regular.svg" alt="" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                  earum autem, sunt expedita nam at?
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="container statistics">
-        <div class="meals-count"></div>
-        <div class="satisfaction-rate"></div>
+        <div class="meals-count">
+          <div class="meals-count__circle"></div>
+          <p>meals served this month</p>
+        </div>
+        <div class="satisfaction-rate">
+          <div class="meals-count__circle"></div>
+          <p>of clients satisfied</p>
+        </div>
       </div>
       <footer></footer>
     </main>

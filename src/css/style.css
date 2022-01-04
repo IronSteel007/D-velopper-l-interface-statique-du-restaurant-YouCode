@@ -1,7 +1,60 @@
-/*
-    <!--TODO LOUKILI-->
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 247, 236);
+}
 
-    <!--end LOUKILI-->  */
+/* TODO LOUKILI */
+.container {
+  width: 100%;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.week-days__list {
+  list-style-type: none;
+  display: flex;
+}
+
+.meal-card {
+  margin-top: 30px;
+}
+
+.meal-card__image img {
+  width: 100%;
+}
+
+.meal-card__review-face {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.meal-card__comment {
+  display: flex;
+  margin-top: 15px;
+}
+
+.statistics {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.meals-count__circle {
+  display: inline-block;
+  border: green 5px solid;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.satisfaction-rate {
+  margin-top: 30px;
+}
+/* end LOUKILI */
 
 /*
     <!-- TODO YAHYA-->
