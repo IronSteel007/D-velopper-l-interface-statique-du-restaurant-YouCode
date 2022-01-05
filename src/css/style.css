@@ -3,39 +3,123 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: rgb(255, 247, 236);
-}
 
+main {
+  background-color: azure;
+}
 /* TODO LOUKILI */
+
+@font-face {
+  font-family: poppins;
+  src: url(/asset/fonts/Poppins-Regular.ttf);
+}
 .container {
+  font-family: poppins, sans-serif;
   width: 100%;
   background-color: white;
-  border-radius: 30px;
+  border-radius: 15px;
   padding: 10px;
 }
+
+.container__title {
+  font-size: x-large;
+}
+
+.edit-menu {
+  float: right;
+  font-size: x-large;
+  width: 30%;
+  min-width: 150px;
+  background-color: #0385f0;
+  color: white;
+  border: none;
+  padding: 3px 8px;
+}
+
+.week-days-mobile {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.week-days-mobile select {
+  background-color: #0385f0;
+  text-align: center;
+  font-size: x-large;
+  width: 70%;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
 .week-days__list {
-  list-style-type: none;
-  display: flex;
+  display: none;
 }
 
 .meal-card {
   margin-top: 30px;
+  border: #0385f0 solid 3px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.meal-card__image {
+  position: relative;
+}
+
+.meal-card__counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
 }
 
 .meal-card__image img {
   width: 100%;
 }
 
+.meal-card__recipe {
+  text-align: center;
+}
+
+.recipe {
+  text-align: left;
+}
+
+.recipe ul {
+  list-style-type: square;
+  margin-left: 30px;
+}
+
+.meal-card__review {
+  text-align: center;
+  margin-top: 30px;
+}
+
 .meal-card__review-face {
+  margin-top: 20px;
   list-style-type: none;
   display: flex;
   justify-content: space-around;
 }
 
+.review-range {
+  margin-top: 10px;
+  width: 90%;
+}
+
 .meal-card__comment {
-  display: flex;
   margin-top: 15px;
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .statistics {
@@ -43,16 +127,83 @@ body {
   text-align: center;
 }
 
-.meals-count__circle {
+.statistics__container {
+  border: rgb(150, 150, 150) 3px solid;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px 1px rgb(150, 150, 150);
+  margin-top: 10px;
+}
+
+.meals-count {
   display: inline-block;
+  margin-top: 25px;
+}
+
+.meals-count__circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: green 5px solid;
   border-radius: 50%;
   height: 200px;
   width: 200px;
 }
 
-.satisfaction-rate {
-  margin-top: 30px;
+.statistics__number {
+  color: blue;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.statistics__text {
+  font-size: 1.3em;
+}
+
+@media only screen and (min-width: 700px) {
+  body {
+    text-align: -webkit-center;
+  }
+  .container {
+    max-width: 920px;
+  }
+  .up-meals {
+    text-align: left;
+  }
+  .week-days-mobile {
+    display: none;
+  }
+  .week-days__list {
+    margin-top: 30px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+  .week-days__list li {
+    border: 2px #0385f0 solid;
+    width: 18%;
+    text-align: center;
+    border-radius: 5px;
+    color: #0385f0;
+    padding-top: 2px;
+    padding-bottom: 3px;
+  }
+
+  .monday {
+    background-color: #0385f0;
+    color: white !important;
+  }
+  .cards-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  .statistics-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .statistics__container {
+    width: 48%;
+  }
 }
 /* end LOUKILI */
 
