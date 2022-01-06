@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "poppins";
 }
 body {
   background-color: rgb(255, 247, 236);
@@ -66,10 +67,124 @@ body {
 
     <!--end WASSIM-->  */
 
-/*
-    <!-- TODO noureddine -->
+/* --TODO NOUREDDINE  */
 
-    <!-- end noureddine -->  */
+.first--section {
+  width: 50%;
+  margin-top: 62px;
+}
+.second--section {
+  display: none;
+}
+
+#nav--icone {
+  color: #0385f0;
+  display: none;
+}
+.home--logo {
+  display: flex;
+  justify-content: center;
+}
+
+.nav--logo {
+  width: 248px;
+}
+.h--one {
+  text-align: center;
+  font-weight: normal;
+  font-size: 22px;
+  font-weight: bold;
+}
+.h--oneblue {
+  color: #0385f0;
+}
+
+.login--input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 31px;
+}
+.id--input {
+  margin: 20px 0px;
+  width: 210px;
+  height: 28px;
+  border: #038dff;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: white;
+}
+.pwd-input {
+  margin: 7px 0px;
+  width: 210px;
+  height: 28px;
+  border: #038dff;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: white;
+}
+#icone--home {
+  color: #0385f0;
+  width: 16px;
+}
+.input-icons {
+  width: 186px;
+  border: none;
+  color: rgba(121, 112, 112, 0.5);
+  outline: none;
+}
+#connexion {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.connexion--button {
+  margin-top: 42px;
+  padding: 12px 43px;
+  background-color: #0385f0;
+  border: none;
+}
+.remember--me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 23px;
+}
+.fa-user-circle:before {
+  color: #038dff;
+}
+.fa-lock:before {
+  color: #038dff;
+}
+
+.name--socialmedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 91px;
+  width: 179px;
+}
+.paragraphe--footer {
+  color: #0385f0;
+  font-size: 14px;
+}
+.icons--footer {
+  color: #0385f0;
+}
+
+.container--sections {
+  display: flex;
+  justify-content: center;
+}
+.remember--me label {
+  margin: 10px;
+}
+
+/* -- end Noureddine  */
 
 /*
 
