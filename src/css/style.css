@@ -183,6 +183,47 @@ body {
 .remember--me label {
   margin: 10px;
 }
+/* MediaQuerry  for Destop Size 1024px */
+@media screen and (min-width: 1024px) {
+  .container--sections {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+  }
+
+  .second--section {
+    background-color: #0385f0;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+  }
+  #nav--icone {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    font-size: 25px;
+    left: 110px;
+  }
+}
+.connextion-svg {
+  width: 48%;
+}
+.nav--home {
+  font-size: 15px;
+  font-weight: bold;
+}
+.home--logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-top: -44px;
+}
+.name--socialmedia {
+  margin-top: 136px;
+  width: 50vw;
+}
+
+/* -----------------end of mediquerry------------------  */
 
 /* -- end Noureddine  */
 
