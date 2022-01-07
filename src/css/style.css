@@ -31,15 +31,21 @@ main {
 .header-f-p {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 100%;
+    MARGIN: 0 auto;
 }
 
 .nav-f-p {
     /* background-color: blue;*/
     width: 97%;
-    margin: 16px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 15px;
+}
+
+.logo-f-p {
+    width: 40%;
 }
 
 .logo-img-f-p {
@@ -64,9 +70,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 95vh;
+    height: 95%;
     justify-content: center;
-    margin: 30px;
+    padding: 30px;
 }
 
 .text-f-p {
@@ -85,8 +91,6 @@ main {
     display: flex;
     justify-content: center;
 }
-
-.btn-wrapper-f-p {}
 
 .right-btn-f-p,
 .left-btn-f-p {
@@ -202,6 +206,70 @@ main {
     display: none;
 }
 
+.plat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.first-plat,
+.second-plat {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-img,
+.second-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-img,
+.second-img {
+    font-size: clamp(2vw, 1vw, 1vw);
+}
+
+.first-img img,
+.second-img img {
+    width: 100%;
+}
+
+.first-fed,
+.second-fed {
+    display: flex;
+    flex-direction: column;
+    border: #0385f0 solid 2px;
+    padding: 20px 20px;
+    width: 90%;
+}
+
+
+/* margin-top 20px */
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+
+/* margin-left 10px */
+
+.imoji {
+    width: 30px;
+}
+
+.emog-faces {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
 @media only screen and (min-width: 601px) {
     .hidden {
         display: none;
@@ -209,11 +277,16 @@ main {
     .heading {
         margin-top: 30px;
     }
+    .btn-wrapper-f-p {
+        display: flex;
+        justify-content: space-around;
+        width: 60vw;
+    }
     .menu-f-p {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 150%;
+        width: 60%;
         font-size: clamp(1vw, 1vw, 1vw);
         list-style: none;
     }
@@ -237,6 +310,27 @@ main {
     }
     .icon span {
         display: flex;
+    }
+    .plat {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .first-img img,
+    .second-img img {
+        width: 80%;
+    }
+    .ipt {
+        width: 100%;
+        padding: 10px 5px;
+    }
+    .first-fed,
+    .second-fed {
+        border: #0385f0 solid 2px;
+        padding: 20px 20px;
+        width: 90%;
     }
 }
 
