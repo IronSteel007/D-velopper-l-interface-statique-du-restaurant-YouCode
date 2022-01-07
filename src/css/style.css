@@ -646,5 +646,160 @@ main {
 /*
 
     <!-- TODO EL BOUKHARI -->
+/* elboukhari css page 1*/
 
-    <!-- end EL BOUKHARI -->   */
+.B_container {
+  margin: 20px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.B_text {
+  text-align: center;
+  font-family: "Poppins", "Arial Narrow", Arial;
+}
+
+.B_text h2 {
+  color: #0385f0;
+}
+
+.B_image img {
+  width: 90%;
+}
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn-group button {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid#0385f0;
+  padding: 10px 80px;
+  font-family: "Poppins", "Arial Narrow", Arial;
+  color: #0385f0;
+}
+.btn-group p{
+  text-align: center;
+
+}
+
+@media (min-width: 900px) {
+  .B_container {
+    margin: 20px;
+    /* display: block; */
+  }
+
+  .B_text {
+    text-align: center;
+
+  }
+
+  .B_image {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto; 
+  }
+/* 
+  .B_image img {
+    width: 20%;
+  } */
+
+  .btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    
+  }
+  .btn-group p {
+    text-align: center;
+
+  }
+  
+  .btn-group button {
+    width: 60vh;
+    margin-bottom: 5px;
+  }
+}
+
+/* elboukhari css page 2*/
+
+
+
+.Bk_first {
+  margin-top: 10px;
+  text-align: center;
+}
+.Bk_first button {
+  margin: 10px;
+  border: #0385f0;
+  border-radius: 10px;
+}
+
+.Bk_first select {
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  background-color: #0385f0;
+}
+
+.Bk_container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Bk_meal_h {
+  text-align: center;
+  margin: 10px;
+}
+.Bk_first_meal img {
+  max-width: 100%;
+  margin: 10px auto;
+}
+.Bk_second_meal img {
+  max-width: 100%;
+  margin: 10px auto;
+}
+.Bk_recet {
+  border: 1px solid #0385f0;
+  display: flex;
+  flex-direction: column;
+  margin: auto 10%;
+  padding-bottom: 3%;
+}
+.Bk_recet ul {
+  list-style-type: square;
+  list-style-position: inside;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.Bk_recet li {
+  color: #0385f0;
+}
+
+.Bk_recet li span {
+  color: black;
+}
+
+.Bk_last_button {
+  display: flex;
+  justify-content: center;
+}
+.Bk_last_button button {
+  background-color: #0385f0;
+  border: #0385f0;
+  color: aliceblue;
+  padding: 20px 60px;
+  margin: 20px;
+}
+
+/* page2 end */
