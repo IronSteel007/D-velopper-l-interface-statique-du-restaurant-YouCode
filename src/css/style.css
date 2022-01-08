@@ -881,6 +881,7 @@ main {
   padding: 10px 80px;
   font-family: "Poppins", "Arial Narrow", Arial;
   color: #0385f0;
+  cursor: pointer;
 }
 .btn-group p{
   text-align: center;
@@ -945,6 +946,7 @@ main {
   border-radius: 10px;
   color: white;
   background-color: #0385f0;
+  cursor: pointer;
 }
 
 .Bk_container {
@@ -997,7 +999,59 @@ main {
   color: aliceblue;
   padding: 20px 60px;
   margin: 20px;
+  cursor: pointer;
 }
+
+/* page3 */
+
+
+.Bkm_text {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.Bkm_imgcontainer {
+    display: flex ;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+
+.Bkm_feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Bkm_feedback input[type=text], textarea {
+    width: 60%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+
+  .Bkm_feedback input[type=submit] {
+    background-color: #0385F0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    width: 34%;
+    cursor: pointer;
+  }
+
+  @media (min-width:545px) {
+    .Bkm_imgcontainer {
+        display: flex ;
+        flex-direction:row-reverse;
+         }
+        
+  }
+
 
 
 /* =======
