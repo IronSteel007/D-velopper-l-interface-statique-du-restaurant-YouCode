@@ -1121,6 +1121,9 @@ textarea:focus {
   margin-top: 136px;
   width: 50vw;
 }
+.first--section {
+  margin-top: 60px;
+}
 
 /* -----------------end of mediquerry------------------  */
 
