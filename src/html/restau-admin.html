@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">Youcode</a>
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="#work">home</a></li>
+        <li><a href="#about">blog</a></li>
+        <li><a href="#careers">Contact</a></li>
+        <li><a href="#contact">about</a></li>
+        <li><a class="log" href="#contact">log in</a></li>
+      </ul>
+    </header>
+    <main class="page-container">
+      <div class="container1">
+        <div class="date">
+          <label for="date">Veuillez Précisez la date </label><br />
+          <input
+            type="date"
+            id="date"
+            value="2022-01-10"
+            min="2022-01-10"
+            max="2023-01-10"
+          />
+        </div>
+        <div class="intro">
+          <p>Voila Chef ! <span>Veuillez remplir le menu du jour</span></p>
+        </div>
+        <div class="container-edit">
+          <div class="edit-container">
+            <p class="edit-container__plate">première plate:</p>
+            <div class="edit-container__element edit-container__image">
+              <input type="file" accept="png" />
+              <img
+                class="edit-container__edit-icon"
+                src="https://img.icons8.com/ios-glyphs/30/000000/edit-image.png"
+              />
+            </div>
+            <div class="edit-container__form">
+              <div class="edit-container__element edit-container__name">
+                <label for="name">plate name:</label> <br />
+                <input type="text" id="name" placeholder="poisson avec..." />
+              </div>
+              <div class="edit-container__element edit-container__recipe">
+                <label for="recipe">recipe</label> <br />
+                <textarea id="recipe" rows="7"></textarea>
+              </div>
+              <div class="button-container">
+                <button class="edit-container__element edit-container__button">
+                  save
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="edit-container">
+            <p class="edit-container__plate">deuxième plate:</p>
+            <div class="edit-container__element edit-container__image">
+              <input type="file" accept="png" />
+              <img
+                class="edit-container__edit-icon"
+                src="https://img.icons8.com/ios-glyphs/30/000000/edit-image.png"
+              />
+            </div>
+
+            <div class="edit-container__form">
+              <div class="edit-container__element edit-container__name">
+                <label for="name">plate name:</label> <br />
+                <input type="text" id="name" placeholder="poison avec..." />
+              </div>
+              <div class="edit-container__element edit-container__recipe">
+                <label for="recipe">recipe</label> <br />
+                <textarea id="recipe" rows="7"></textarea>
+              </div>
+              <div class="button-container">
+                <button class="edit-container__element edit-container__button">
+                  save
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer-f-p">
+      <div class="bg">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <ul>
+          <li>
+            <a><i class="fab fa-facebook"></i> </a>
+          </li>
+          <li>
+            <a><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a><i class="fab fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
