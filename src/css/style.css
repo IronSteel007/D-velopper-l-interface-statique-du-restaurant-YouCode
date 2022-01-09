@@ -1294,10 +1294,18 @@ textarea:focus {
   flex-wrap: wrap;
 }
 
+.Bkm_imgcontainer img{
+  width: initial;
+}
+
 .Bkm_feedback {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.Bkm_feedback img{
+  width: initial;
 }
 
 .Bkm_feedback input[type="text"],
@@ -1319,6 +1327,7 @@ textarea {
   border-radius: 4px;
   width: 34%;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 545px) {
