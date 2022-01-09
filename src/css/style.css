@@ -36,6 +36,10 @@ main {
   padding: 3px 8px;
 }
 
+.edit-menu a {
+  color: #fff;
+  text-decoration: none;
+}
 .week-days-mobile {
   text-align: center;
   margin-top: 20px;
