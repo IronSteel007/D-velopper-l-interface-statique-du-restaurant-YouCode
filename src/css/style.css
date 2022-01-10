@@ -39,6 +39,10 @@ main {
     padding: 3px 8px;
 }
 
+.edit-menu a {
+  color: #fff;
+  text-decoration: none;
+}
 .week-days-mobile {
     text-align: center;
     margin-top: 20px;
@@ -1067,9 +1071,54 @@ textarea:focus {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .part2 .part3 .h2 {
     WIDTH: 88%;
     color: white;
+=======
+  .cont1 {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .coscos {
+    width: 90%;
+    DISPLAY: FLEX;
+    padding: 1px;
+    background-color: #0385f0;
+  }
+
+  .coscos .para {
+    FONT-SIZE: 25PX;
+    color: wheat;
+  }
+  .coscos .h2 h2 {
+    WIDTH: 52%;
+    FONT-SIZE: 49PX;
+  }
+  .csocso{
+    width: 50%;
+  }
+  .coscos .img3{
+    WIDTH: 50%;
+    DISPLAY: FLEX;
+  }
+  
+.coscos .img3 img{
+  width: 100%;
+}
+.part2{
+  display: flex;
+    flex-direction: row-reverse;
+    background-color: #0385f0;
+    width: 90%;
+    MARGIN-TOP: 10%;
+
+}
+.part2 .img4{
+  width: 100%;
+>>>>>>> a4d46bbc7b4c542eb41cd0056ff5f07c46cf6d28
 }
 
 .img4 {
