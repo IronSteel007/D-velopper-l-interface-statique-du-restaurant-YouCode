@@ -1007,7 +1007,7 @@ textarea:focus {
     width: 90%;
     DISPLAY: FLEX;
     padding: 1px;
-    background-color: blue;
+    background-color: #0385f0;
   }
 
   .coscos .para {
@@ -1032,7 +1032,7 @@ textarea:focus {
 .part2{
   display: flex;
     flex-direction: row-reverse;
-    background-color: blue;
+    background-color: #0385f0;
     width: 90%;
     MARGIN-TOP: 10%;
 
